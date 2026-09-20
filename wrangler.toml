@@ -20,7 +20,7 @@ run_worker_first = true
 [vars]
 CONNECT_TIMEOUT_MS = "10000"
 
-[[durable_objects.bindings]]
+[[durable_objects.bindings]]   
 name = "SSH_SESSIONS"
 class_name = "SSHSessionDO"
 
